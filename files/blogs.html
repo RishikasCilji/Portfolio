@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog Posts</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #fceabb, #f8b500);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff6b6b, #f7d794);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .home-link {
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+      text-decoration: none;
+      color: #d63031;
+      font-weight: bold;
+      background-color: #ffeaa7;
+      padding: 10px 15px;
+      border-radius: 20px;
+      width: fit-content;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .learning-section:hover {
+      transform: scale(1.05);
+      border: 3px solid #a29bfe;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: #6c5ce7;
+    }
+
+    p {
+      color: #2d3436;
+    }
+
+    .learning-section {
+        margin: 15px;
+        padding: 20px;
+        background: linear-gradient(to bottom right, #ffffff, #ffeaa7);
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s, border 0.3s;
+        border: 3px solid transparent;
+        max-width: 700px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+    .learning-section h2 {
+        color: #6c5ce7;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #6c5ce7;
+        padding-bottom: 5px;
+    }
+
+    .blog-points {
+        margin-top: 10px;
+    }
+
+    .blog-points li {
+        margin-bottom: 8px;
+        color: #2d3436;
+    }
+
+    .tips {
+        margin-top: 10px;
+    }
+
+    .tips li {
+        margin-bottom: 8px;
+        color: #2d3436;
+    }
+
+    .resources {
+        margin-top: 10px;
+    }
+
+    .resources li {
+        margin-bottom: 8px;
+        color: #2d3436;
+    }
+
+    .resources a {
+        color: #0984e3;
+        text-decoration: none;
+    }
+
+    .resources a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+      background-color: #fab1a0;
+      padding: 12px;
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 30px;
+      color: #2d3436;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    Blogs & Learnings 
+  </header>
+
+  <a class="home-link" href="index.html">← Back to Home</a>
+
+  <div class="learning-section">
+    <h2>🎨 Designing with Intuition: How to Build Aesthetic UIs</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Start with whitespace—it's the best designer you never hired.</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>Trust your eye—it's smarter than you think.</li>
+        <li>Pick 1-2 fonts, max. Make them do the heavy lifting.</li>
+        <li>Use color sparingly, like a highlight—not a flood.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong> The Non-Designer's Design Book by Robin Williams</li>
+        <li><strong>Read Blog →</strong> <a href="https://lawsofux.com/">Law of UX</a></li>
+        <li><strong>YouTube:</strong> <a href="https://www.youtube.com/c/DesignCourse">DesignCourse</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="learning-section">
+    <h2>💻 Code Smart, Not Hard</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Write code like someone else is going to read it. Because someday, someone will. (It might be future-you too!.)</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>Keep functions short and focused.</li>
+        <li>Use meaningful names—no more temp1, data2, or thingy.</li>
+        <li>Comment why, not what.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong> Clean Code by Robert C. Martin</li>
+        <li><strong>Read Blog → </strong> How to Write Clean, Readable Code by Natalie Codes</li>
+        <li><strong>YouTube:</strong> <a href="https://www.youtube.com/@ThePrimeagen">The Primeagen</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="learning-section">
+    <h2>🌱 Learning is a Habit, Not a Phase</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Spend 20 minutes a day on your "future self." That's all it takes to build momentum.</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>Learning in public is scary—but worth rewarding.</li>
+        <li>Follow your curiosity, not the algorithm.</li>
+        <li>Rest is part of the process.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong> Atomic Habits by James Clear</li>
+        <li><strong>Read Blog → </strong>The Ultimate Guide to Learning Anything Faster </li>
+        <li><strong>YouTube:</strong> <a href="https://www.youtube.com/c/aliabdaal">Ali Abdaal</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="learning-section">
+    <h2>🤖 AI & ML - The New Future of the World?</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Build intuition before models—know the "why" behind the algorithm.</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>Explore real-world use cases to understand practical impact.</li>
+        <li>Balance theory with projects—learning happens in doing.</li>
+        <li>Stay updated—AI moves fast, so should you.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong>"You Look Like a Thing and I Love You" by Janelle Shane </li>
+        <li><strong>Read Blog → </strong>How to Learn Machine Learning in 2024 </li>
+        <li><strong>YouTube:</strong> <a href="#">CodeEmporium</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="learning-section">
+    <h2>🛠️ Why I Love Personal Projects</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Start small and finish often—momentum beats perfection.</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>They keep you curious and hands-on.</li>
+        <li>You get to apply what you learn—immediately.</li>
+        <li>They become your best resume.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong> Show Your Work! by Austin Kleon</li>
+        <li><strong>Read Blog → </strong>The Value of Side Projects </li>
+        <li><strong>YouTube:</strong> <a href="#">Joma Tech</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="learning-section">
+    <h2>🌐 Keep in Touch with Tech & Real World</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Use news aggregators like Hacker News, Reddit, and newsletters to stay updated in 10 mins a day.</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>Bridge the gap between code and context.</li>
+        <li>Tech isn't in a vacuum—stay aware of social impact.</li>
+        <li>Apply your learning to real-world conversations and ideas.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong> TLDR Newsletter</li>
+        <li><strong>Read Blog → </strong> How I Stay Up-to-Date as a Developer by Quincy Larson </li>
+        <li><strong>YouTube:</strong> <a href="#">ColdFusion</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="learning-section">
+    <h2>🧠 Build Resilience in Failure</h2>
+    <div class="content">
+      <h3>💡 Quick Tip:</h3>
+      <p>Failure is data—learn from it like you would from any dataset.</p>
+  
+      <h3>🔑 Key Points:</h3>
+      <ul class="blog-points">
+        <li>Failing means you're pushing your limits.</li>
+        <li>Track your lessons like bugs—fix and move on.</li>
+        <li>Every stumble builds grit. And grit wins long-term.</li>
+      </ul>
+  
+      <h3>📚 Learn More:</h3>
+      <ul class="resources">
+        <li><strong>Book:</strong> Grit by Angela Duckworth</li>
+        <li><strong>Read Blog → </strong> Why You Should Learn to Love Failure by Doist </li>
+        <li><strong>YouTube:</strong> <a href="#">Nathaniel Drew</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2025 My Portfolio-Rishika Cilji Saravanan | All rights reserved.
+  </footer>
+</body>
+
+</html>
