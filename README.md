@@ -2,7 +2,7 @@
 
 Welcome to my portfolio repository! This website showcases who I am, what I do, and what I’ve accomplished so far. Built with **HTML, CSS, and JavaScript**, this responsive site is designed to highlight my journey in a simple, engaging, and organized way.
 
-*** PORTFOLIO LIVE SERVER *** --->   https://rishikascilji.github.io/Portfolio/
+***PORTFOLIO LIVE SERVER*** --->   https://rishikascilji.github.io/Portfolio/
 
 ## 📁 Website Sections
 
